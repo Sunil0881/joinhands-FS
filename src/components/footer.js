@@ -1,15 +1,15 @@
 const Footer = () => {
     const mycolor ={
-        color: '#F65F5F'
+        color: '#F65F5F',
     }
     return (
-        <footer id="footer" class="bg-black">
-            <div class="grid grid-cols-3 pt-10">
-                <div class="pl-20">
-                    <h1 class="text-red-500 font-bold text-xl">joinhands</h1>
-                    <p class="text-white text-sm pt-3">Joining the hands of Restaurant people and NGO people to serve the
+        <footer id="footer" class="bg-black pt-5 px-4">
+            <div class="grid grid-col gap-4 md:flex md:justify-between md:space-x-5">
+                <div class="">
+                    <h1 class="text-red-500 text-center md:text-left md:mx-7 font-bold text-xl">joinhands</h1>
+                    <p class="text-white text-sm pt-3 md:text-left md:mx-7 text-center">Joining the hands of Restaurant people and NGO people to serve the
                         poor</p>
-                    <div class="flex gap-5 pt-6">
+                    <div class="flex gap-5 pt-6 md:justify-start md:mx-7 justify-center">
                         <svg style={mycolor} xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" >
                             <path
@@ -30,38 +30,35 @@ const Footer = () => {
                         </svg>
                     </div>
                 </div>
-                <div class=" pl-52">
-                    <div class="">
-                        <a href="#" class=" text-red-500 ">About</a><br></br>
+                <div className="grid grid-cols-2 md:space-x-20 md:px-10">
+                    <div class="flex flex-col items-center justify-center">
+                        <div class="text-red-500 ">
+                            About<br></br>
+                        </div>
+                        <div class="text-white">
+                            Services<br></br>
+                        </div>
+                        <div class="text-white">
+                            Contact Us
+                        </div>
                     </div>
-                    <div class="pt-5">
-                        <a href="#" class="text-white ">Services</a><br></br>
+                    <div class="flex flex-col items-center justify-center">
+                        <div class=" text-red-500 ">
+                            Company<br></br>
+                        </div>
+                        <div class=" text-white">
+                            Partnership<br></br>
+                        </div>
+                        <div class=" text-white">
+                            Tersm of use
+                        </div>
                     </div>
-                    <div class="pt-5">
-                        <a href="#" class="text-white ">Contact Us</a>
-                    </div>
-
                 </div>
-                <div class=" pl-20">
-                    <div class="">
-                        <a href="#" class=" text-red-500 ">Company</a><br></br>
-                    </div>
-                    <div class="pt-5">
-                        <a href="#" class="text-white ">Partnership</a><br></br>
-                    </div>
-                    <div class="pt-5">
-                        <a href="#" class="text-white ">Tersm of use</a>
-                    </div>
-
-                </div>
-
-
             </div>
-
-            <div class="text-white text-xs flex justify-center pt-20">Copyright © 2023 Joinhands.</div>
-
+            <div class="text-white text-xs flex justify-center mt-5">
+                Copyright © 2023 Joinhands.
+            </div>
         </footer>
-
     );
 }
 
