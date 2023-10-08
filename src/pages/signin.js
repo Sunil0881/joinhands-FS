@@ -15,7 +15,7 @@ const Signin = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center md:mx-4">
                     <div class="pt-5 md:w-full">
-                        <label for="username" className="text-white  font-semibold block">Username</label>
+                        <label for="username" className="text-white block font-semibold">Username</label>
                         <input type="text" id="username" className="text-base p-1 rounded-sm px-3 md:w-full w-auto focus:ring-0 focus:border-gray-500"
                             placeholder="Enter your Username..."></input>
                     </div>
