@@ -5,22 +5,22 @@ const Signin = () => {
     return ( 
         <div class="bg-black h-[671px]">
     <main class="grid grid-cols-2 ">
-    <div class="pl-20">
+    <div class="pl-20 hidden">
         <img src={maijhlogo} alt="logo" width="550px"></img>
     </div>
     <div class="pr-56 pl-32 pt-10">
         <div class=" pt-10 border p-10">
             <div class="flex justify-center pb-5">
-                <h1 class="text-white  text-2xl font-bold m-3">Login</h1>
+                <h1 class="text-white text-2xl font-bold m-3">Login</h1>
             </div>
-            <div class="">
+            <div >                                                                                                                                                                 ">
                 <label for="username" class="text-white  font-semibold block">Username</label>
-                <input type="text" id="username" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
+                <input type="text" id="username" class="   text-base p-1 rounded-sm px-3  w-96 focus:ring-0 focus:border-gray-500"
                     placeholder="Enter your Username..."></input>
             </div>
             <div class=" pt-4">
                 <label for="Password" class="text-white font-semibold  block">Password</label>
-                <input type="password" id="username" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
+                <input type="password" id="username" class="  text-base p-1 rounded-sm px-3  w-96 focus:ring-0 focus:border-gray-500"
                     placeholder="Enter your Password..."></input>
             </div>
             <div class="pt-20 flex justify-center">
