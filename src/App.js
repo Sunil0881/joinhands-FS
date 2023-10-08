@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
+import Signin from "./pages/signin"
 
 
 function App() {
@@ -14,11 +15,11 @@ function App() {
             path="/" 
             element={ <Home /> } 
           />
-          {/* <Route 
+         <Route 
             path="/signin" 
-            element={ <Login /> } 
+            element={ <Signin /> } 
           />
-          <Route 
+            {/*<Route 
             path="/signupdon" 
             element={ <Signupdon /> } 
           />
