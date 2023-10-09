@@ -12,6 +12,7 @@ const About = () => {
         width: '550px',
         height: '500px',
         paddingBottom: '20px'
+        
     }
     return (
         <div class="bg-black">

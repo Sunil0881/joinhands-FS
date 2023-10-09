@@ -1,19 +1,19 @@
 import gradient from "../assets/gradient.png"
 import maijhlogo from "../assets/maijhlogo.png"
 import kolam from "../assets/kolam.png"
-
-const Singupres = () => {
+const Signupngo = () => {
     const style1 = {
         backgroundImage: `url(${gradient})`
     }
     return ( 
-        <body class="bg-black " style={style1} >
+        
+        <body class="bg-black " >
 
-    
+   
 
     <main class="grid grid-cols-2 pt-6">
         <div class="pl-20">
-            <img src={maijhlogo} alt="logo" width="550px" ></img>
+            <img src={maijhlogo} alt="logo" width="550px"></img>
         </div>
         <div class="pr-56 pl-32 ">              
             <div class=" grid grid-cols-2 ">
@@ -23,7 +23,7 @@ const Singupres = () => {
             <div class=" pt-3 border p-10">
                 
                 <div class="">
-                    <label for="restaurantname" class="text-white  font-semibold block">Restaurant Name</label>
+                    <label for="ngoname" class="text-white  font-semibold block">NGO Name</label>
                     <input type="text" id="ngoname" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
                         placeholder="Enter your NGO Name..."></input>
                 </div>
@@ -38,7 +38,7 @@ const Singupres = () => {
                         placeholder="Enter your Email Id..."></input>
                 </div>
                 <div class=" pt-4">
-                    <label for="address" class="text-white font-semibold  block">Restaurant Address</label>
+                    <label for="address" class="text-white font-semibold  block">NGO Address</label>
                     <input type="text" id="address" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
                         placeholder="Enter your House Address..."></input>
                 </div>
@@ -47,7 +47,7 @@ const Singupres = () => {
                     <input type="number" id="pincode" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
                         placeholder="Enter your Pin Code..."></input>
                 </div>
-               
+            
                 <div class=" pt-4">
                     <label for="city" class="text-white font-semibold  block">City</label>
                     <input type="text" id="city" class="  text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
@@ -75,4 +75,4 @@ const Singupres = () => {
      );
 }
  
-export default Singupres;
+export default Signupngo;
