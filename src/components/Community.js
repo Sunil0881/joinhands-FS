@@ -1,4 +1,4 @@
-import profileimg from '../assets/profileimg.png';
+import profileimg from '../assets/profile.jpg';
 
 
  const Community = () => {

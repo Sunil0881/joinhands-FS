@@ -4,7 +4,7 @@ const Mainhome = () => {
     return ( 
         <main  class=" text-white flex flex-col-reverse items-center bg-black md:grid md:grid-cols-2" id="home" >
         <div class="mx-10 text-left">
-            <h1 class="text-yellow-300 py-36 md:py-20 font-bold pb-3 text-5xl md:text-7xl">Feeding the <span style={{ color: '#F65F5F' }}
+            <h1 class="text-yellow-300 py-12 md:py-20 font-bold pb-3 text-5xl md:text-7xl">Feeding the <span style={{ color: '#F65F5F' }}
                     class=" font-bold">Need</span></h1>
             <p class=" font-semibold text-lg">A Fusion of Caring Hearts and Flavorful Art: NGOs & Restaurants Unite.</p>
             <p class="pt-10 text-base pb-5">Our website offers an intuitive and user-friendly interface that
