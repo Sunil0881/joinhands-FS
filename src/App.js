@@ -2,9 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Signin from "./pages/signin"
-import Signupres from "./pages/signupres"
-import Signupngo from './pages/signupngo'
-
+import Signup from './pages/signup'
 
 function App() {
   return (
@@ -23,12 +21,8 @@ function App() {
           />
             <Route 
             path="/signupngo" 
-            element={ <Signupngo /> } 
+            element={ <Signup /> } 
           />
-          <Route 
-            path="/signupres" 
-            element={ <Signupres /> } 
-          /> 
         </Routes>
       </div>
     </BrowserRouter>
