@@ -1,5 +1,5 @@
 import kolam from "../assets/kolam.png";
-import maijhlogo from "../assets/maijhlogo.png";
+import maijhlogo from "../assets/signinimage.png";
 
 const Signin = () => {
     return ( 
