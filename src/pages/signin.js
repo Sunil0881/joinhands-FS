@@ -13,7 +13,7 @@ const Signin = () => {
             <div class="flex justify-center pb-5">
                 <h1 class="text-white text-2xl font-bold m-3">Login</h1>
             </div>
-            <div >                                                                                                                                                                 ">
+            <div >                                                   
                 <label for="username" class="text-white  font-semibold block">Username</label>
                 <input type="text" id="username" class="   text-base p-1 rounded-sm px-3  w-full focus:ring-0 focus:border-gray-500"
                     placeholder="Enter your Username..."></input>

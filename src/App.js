@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Signin from "./pages/signin"
+import Signupres from "./pages/signupres"
 
 
 function App() {
@@ -22,11 +23,11 @@ function App() {
             {/*<Route 
             path="/signupdon" 
             element={ <Signupdon /> } 
-          />
+          />*/}
           <Route 
             path="/signupres" 
             element={ <Signupres /> } 
-          /> */}
+          /> 
         </Routes>
       </div>
     </BrowserRouter>
