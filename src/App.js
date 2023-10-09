@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Signin from "./pages/signin"
 import Signupres from "./pages/signupres"
+import Signupngo from './pages/signupngo'
 
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
             path="/signin" 
             element={ <Signin /> } 
           />
-            {/*<Route 
-            path="/signupdon" 
-            element={ <Signupdon /> } 
-          />*/}
+            <Route 
+            path="/signupngo" 
+            element={ <Signupngo /> } 
+          />
           <Route 
             path="/signupres" 
             element={ <Signupres /> } 
