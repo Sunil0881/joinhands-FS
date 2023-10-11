@@ -23,14 +23,15 @@ const Navbar = () => {
         <header className='bg-black px-8 h-12 pt-2 text-white'>
             <nav className="flex justify-between items-center w-full mx-auto">
                 <div className='font-bold text-2xl'>
-                    joinhands
+                    <Link to={'/'}>
+                        joinhands
+                    </Link>
                 </div>
                 <div className={`md:static absolute bg-black md:min-h-fit left-0 w-full md:w-auto min-h-[41vh] flex items-center px-5 transition-all duration-700 ease-in-out`} style={navStyle}>
                     <ul className="flex md:flex-row flex-col md:items-center md:gap-4 gap-8">
                         <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('home')}>Home</li>
                         <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('community')}>Community</li>
                         <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('about')}>About</li>
-                        <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('serve')}>Serve</li>
                         <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('donate')}>Donate</li>
                         <li className="hover:text-red-600 cursor-pointer" onClick={() => scrollToSection('footer')}>ContactUs</li>
                     </ul>

@@ -1,18 +1,6 @@
-import signInImage from '../assets/signinimage.png'
-import kolam from "../assets/kolam.png"
-const Signupres = () => {
+const Signupngo = () => {
     return ( 
-        <div class="bg-black h-screen">
-            <main class="flex flex-col items-center mx-5 md:flex-row md:justify-center md:mx-5">
-                <div class="hidden md:block md:w-full">
-                    <img src={signInImage} alt="logo" width="550px"></img>
-                </div>
-                <div class="mt-5 text-base rounded-3xl w-full border md:mx-28">
-                    <div class="flex w-full">
-                        <a href="Register_NGO.html" class="text-white font-semibold w-full border rounded-tl-3xl bg-red-500 p-3">Register as NGO</a>
-                        <a href="Register_res.html" class="text-white font-semibold w-full border rounded-tr-3xl bg-red-500 p-3">Register as Donor</a>
-                    </div>
-                    <div class="px-5 py-5">
+        <div class="px-5 py-5">
                     <div class="pt-4">
                         <label for="restaurantname" class="text-white  font-semibold block">Restaurant Name</label>
                         <input type="text" class="text-base p-1 rounded-sm px-3 w-full focus:ring-0 focus:border-gray-500"
@@ -47,13 +35,7 @@ const Signupres = () => {
                         <button class="rounded-full px-16 py-1 border bg-red-500 text-white text-base font-bold hover:text-red-500 hover:bg-white">Register</button>
                     </div>
              </div>
-        </div>
-    </main>
-    <div class="flex justify-end bg-black">
-        <img src={kolam} alt="design" width="80px"></img>
-    </div>
-</div>
      );
 }
  
-export default Signupres;
+export default Signupngo;
